@@ -19,7 +19,7 @@ Setup two locally resolvable domains:
 * victim.com
 * attacker.com
 
-and connect *victim.com* (using an Apache virtual host) to the directory where you earlier unzipped (or cloned) the victim.com files. Similarly, create a site *attacker.com* from where you will be launching your attacks.
+and connect *victim.com* (using an Apache virtual host) to the directory where you earlier unzipped (or cloned) the file-manager PHP files. Similarly, create a site *attacker.com* from where you will be launching your attacks.
 
 At the end of this process, you should be able to type in your browser **victim.com** and see the file manager and **attacker.com** and see your own soon-to-be-malicious page.
 
