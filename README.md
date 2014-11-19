@@ -23,14 +23,14 @@ and connect *victim.com* (using an Apache virtual host) to the directory where y
 
 At the end of this process, you should be able to type in your browser **victim.com** and see the file manager and **attacker.com** and see your own soon-to-be-malicious page.
 
-Part 1
+Part 1 (Points 7/10)
 ------
 
 The file manager has a CSRF vulnerability which allows attackers to create directories simply by luring the user to a malicious website.
 
 Create such a page under *attacker.com* which, when visited, will create 5 directories (hacked0, hacked1,...,hacked4) in the *gallery-images* folder.
 
-Part 2
+Part 2 (Points 3/10)
 ------
 
 The file manager has an XSS bug which manifests when the user tries to see the contents of a folder that does not exist. Create a file *a.js* with the contents:
