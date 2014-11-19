@@ -23,6 +23,9 @@ and connect *victim.com* (using an Apache virtual host) to the directory where y
 
 At the end of this process, you should be able to type in your browser **victim.com** and see the file manager and **attacker.com** and see your own soon-to-be-malicious page.
 
+***All attacks have been tested using Chrome. Use another browser at your own risk!***
+
+
 Part 1 (Points 7/10)
 ------
 
